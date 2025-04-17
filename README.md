@@ -1,6 +1,6 @@
 # Stock-Market-Prediction
 
-# Overview
+## Overview
 This web application is designed to predict stock prices using linear and polynomial regression models. It allows users to analyze historical stock data, visualize predictions, and evaluate model performance. The application also includes a user authentication system and displays news headlines related to stock markets. The application is built using Streamlit, SQLite, and a combination of data science libraries such as scikit-learn, yfinance, Selenium, and BeautifulSoup.
 
 Features
