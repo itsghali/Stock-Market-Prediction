@@ -3,36 +3,36 @@
 ## Overview
 This web application is designed to predict stock prices using linear and polynomial regression models. It allows users to analyze historical stock data, visualize predictions, and evaluate model performance. The application also includes a user authentication system and displays news headlines related to stock markets. The application is built using Streamlit, SQLite, and a combination of data science libraries such as scikit-learn, yfinance, Selenium, and BeautifulSoup.
 
-Features
-Stock Price Prediction Models:
+## Features
+  ### Stock Price Prediction Models:
 
-Linear regression and polynomial regression models are used to predict stock prices.
+    • Linear regression and polynomial regression models are used to predict stock prices.
 
-Visualize predicted stock prices alongside actual data.
+- Visualize predicted stock prices alongside actual data.
 
-User Authentication:
+  ### User Authentication:
 
 Users can sign up and log in using SQLite for data storage.
 
 Passwords are securely hashed using SHA-256 for better security.
 
-Stock Data Fetching:
+  ### Stock Data Fetching:
 
 Historical stock data is fetched using yfinance (Yahoo Finance).
 
-Moving Averages:
+  ### Moving Averages:
 
 Calculate and display different moving averages (50, 100, 200) alongside stock prices.
 
-Stock Market News:
+  ### Stock Market News:
 
 Fetch and display the latest stock market news headlines using Selenium and BeautifulSoup.
 
-Model Evaluation:
+  ### Model Evaluation:
 
 Evaluate prediction models using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² score.
 
-Requirements
+## Requirements
 To run the application, the following dependencies must be installed:
 
 Python 3.x
